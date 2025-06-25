@@ -39,7 +39,7 @@ class App extends Component {
     
     (
       <section className="tc" >
-        <h1 className="f1">RobotFriends</h1>
+        <h1>RobotFriends</h1>
         <SearchBox searchChange={this.onSearchChange}/>
         <Scroll>  
           <CardList robots={filteredRobots}/>
