@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    
+  background: linear-gradient(
+  -45deg,
+  #1a1952,  /* azul profundo */
+  #2e2f6a,  /* azul medio */
+  #adc0ff /* azul pastel brillante */
+  );
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
